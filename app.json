@@ -22,6 +22,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-contacts",
+        {
+          "contactsPermission": "Deixar que $(PRODUCT_NAME) acesse sua lista de contatos?"
+        }
+      ]
+    ]
   }
 }
